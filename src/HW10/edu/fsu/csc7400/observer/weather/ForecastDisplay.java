@@ -24,6 +24,7 @@ public class ForecastDisplay implements Observer, DisplayElement {
 	 * @postcondition this will be registered as an observer to weatherData
 	 */
 	public ForecastDisplay(WeatherData weatherData) {
+		assert(weatherData != null);
 		weatherData.registerObserver(this);
 	}
 

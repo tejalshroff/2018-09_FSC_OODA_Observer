@@ -11,7 +11,6 @@ package HW10.edu.fsu.csc7400.observer.weather;
 
 /**
  * Display for current conditions
- *
  */
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 
@@ -25,6 +24,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	 * @postcondition this will be registered as an observer to weatherData
 	 */
 	public CurrentConditionsDisplay(Subject weatherData) {
+		assert(weatherData != null);
 		weatherData.registerObserver(this);
 	}
 

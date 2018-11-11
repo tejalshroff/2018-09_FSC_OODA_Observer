@@ -13,7 +13,6 @@ import java.util.*;
 
 /**
  * WeatherData collects readings from sensors and then broadcasts the values to observers
- *
  */
 public class WeatherData implements Subject {
 	
