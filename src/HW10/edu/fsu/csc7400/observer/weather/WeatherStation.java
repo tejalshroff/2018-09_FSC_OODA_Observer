@@ -24,6 +24,7 @@ public class WeatherStation {
 		new CurrentConditionsDisplay(weatherData);
 		new StatisticsDisplay(weatherData);
 		new ForecastDisplay(weatherData);
+		new HeatIndexDisplay(weatherData);
 
 		weatherData.setMeasurements(80, 65, 30.4f);
 		System.out.println();

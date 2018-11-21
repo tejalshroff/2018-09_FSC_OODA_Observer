@@ -31,7 +31,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	/**
 	 * Updates the display with new data
 	 * 
-	 * @param temp
+	 * @param temperature
 	 *            current temperature
 	 * @param humidity
 	 *            current humidity level
